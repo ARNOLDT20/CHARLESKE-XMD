@@ -1,4 +1,4 @@
-"use strict";
+"use strict";T20 CLASSIC-MD
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.genererNomFichier = exports.stick = exports.format = exports.styletext = exports.zJson = exports.getBuffer = exports.reaction = exports.police = exports.zokou = void 0;
 let { zokou } = require("./zokou");
