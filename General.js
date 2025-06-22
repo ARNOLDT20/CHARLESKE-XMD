@@ -55,13 +55,13 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Charleske", numero: "254759626063" },
-      { nom: "᚛Ibrahim᚜", numero: "254710772666" },
-      { nom: "BELTAH TECH", numero: "254114141192" },
+      { nom: "T20 CLASSIC", numero: "255658206524" },
+      { nom: "᚛T20 SMILER᚜", numero: "255627417402" },
+      { nom: "BLAZE TECH", numero: "255625606354" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "WELCOME TO CHARLESKE XMD HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
+    let message = "WELCOME TO T20 CLASSIC XMD HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -95,7 +95,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING CHARLESKE-XMD, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[ https://https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K ] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[ https://https://chat.whatsapp.com/EFh0BWKa0Uf92A7RgBwpuu ] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://youtube.com/@charles_odhiambo_official?si=n6lKIy2ViQauVS_n] \n\n\n𝑪𝒓𝒆ated by Charles ke") 
-  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING CHARLESKE-XMD,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
+  repondre("THANK YOU FOR CHOOSING T20 CLASSIC-XMD, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VbAbwiL3AzNOpEoe5Y23 ] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[ https://chat.whatsapp.com/KwolcWjSmbTEhgITWTnKLY ] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@arnoldtarimo3452] \n\n\n𝑪𝒓𝒆ated by T20 CLASSIC") 
+  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING T20 CLASSIC-XMD,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })

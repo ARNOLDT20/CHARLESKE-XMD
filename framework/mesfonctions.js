@@ -9,7 +9,7 @@ const baileys_1 = require("@whiskeysockets/baileys");
 const fs = require('fs-extra');
 const util = require('util');
 let { listall } = require('./stylish-font');
-/*_________by Mselachui 
+/*_________by T20 CLASSIC 
 
 fonction zJson:
 récupère un objet json
@@ -32,7 +32,7 @@ module.exports.genererNomFichier = async (extension) => {
 /** ************ */
 module.exports.stick = async (buffer, author) => {
     var sticker = new Sticker(buffer, {
-        pack: 'MSELA-CHUI-V2',
+        pack: 'T20 CLASSIC-V2',
         author: author,
         type: StickerTypes.FULL,
         categories: ['🤩', '🎉'],
@@ -165,7 +165,7 @@ function styletext(teks) {
 exports.styletext = styletext;
 /*fonction pour prendre le lienle site api.waifu
 
-by @luffy
+by @T20 CLASSIC
 
 
 */
