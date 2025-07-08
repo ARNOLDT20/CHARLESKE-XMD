@@ -27,7 +27,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     let infoMsg = `╭━━━━━━━━━━━━━⬣
 ┃ 🌟 𝙱𝙾𝚃 𝙸𝙽𝙵𝙾  
 ┃━━━━━━━━━━━━━⬣
-┃ 🔹 ᴮᵒᵗ ᴺᵃᵐᵉ: *CHARLESKE XMD*
+┃ 🔹 ᴮᵒᵗ ᴺᵃᵐᵉ: T20_STARBOY XMD*
 ┃ 👤 ᵁˢᵉʳ: *🚀${nomAuteurMessage}💥*
 ┃ 📳 ᴹᵒᵈᵉ: *🌍 ${mode}*
 ┃ ⌨ ᴾʳᵉᶠⁱˣ: *[ ${prefixe} ]*
@@ -36,7 +36,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ┃ ⏳ ᵀⁱᵐᵉ: *${temps}*
 ┃ 🛠 ᶜᵒᵐᵐᵃⁿᵈˢ: *${Object.keys(cm).length}*
 ┃ 📊 ᶜᵃᵖᵃᶜⁱᵗʸ: ${(os.freemem() / 1024 / 1024 / 1024).toFixed(2)} GB/${(os.totalmem() / 1024 / 1024 / 1024).toFixed(2)} GB
-┃ 👑 ᴼʷⁿᵉʳ: *Charleske*
+┃ 👑 ᴼʷⁿᵉʳ: *T20_STARBOY*
 ╰━━━━━━━━━━━━━⬣
 
 ${readMore}
